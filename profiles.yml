@@ -1,0 +1,12 @@
+redshift_dbt:
+  outputs:
+    dev:
+      dbname: dev
+      host: redshift-dbt.508632573795.us-east-1.redshift-serverless.amazonaws.com
+      password: ''
+      port: 5439
+      schema: platform
+      threads: 1
+      type: redshift
+      user: dev
+  target: dev
