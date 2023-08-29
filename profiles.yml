@@ -3,7 +3,7 @@ redshift_dbt:
     dev:
       dbname: dev
       host: redshift-dbt.508632573795.us-east-1.redshift-serverless.amazonaws.com
-      password: '12345'
+      password: ''
       port: 5439
       schema: platform
       threads: 1
